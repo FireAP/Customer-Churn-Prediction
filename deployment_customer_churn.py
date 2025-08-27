@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import joblib
 
 #App Dev
-model_pipeline = joblib.load("/content/xgboost_pipeline.pkl")
+model_pipeline = joblib.load("xgboost_pipeline.pkl")
 
 st.title("Churn Risk Dashboard")
 st.markdown("Interactive dashboard to explore churn predictions and feature impact.")
